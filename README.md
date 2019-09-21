@@ -12,7 +12,7 @@ No known bugs at the moment
 ## Technologies Used
 + HTML
 + CSS
-+ JS
++ JavaScript
 ## License
 MIT Copyright(c) 2019
 

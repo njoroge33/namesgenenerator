@@ -1,5 +1,5 @@
 .container-fluid {
-    background-image: url("/images/ghana.jpg");
+    background-image: url("../images/ghana.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     font-size: 18px;

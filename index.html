@@ -7,6 +7,53 @@
     <title>Akan</title>
 </head>
 <body>
-    
+    <div>
+        <img src="images/flag.jpg">
+        <div>
+            <h1>AKAN NAMES GENERATOR</h1>
+            <p >Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born and also the gender.</p>
+        </div>
+
+    </div>
+
+    <div>
+            <div>
+                
+                </div>
+        <form name="akan">
+            <div>
+            <label class="a"><b>Your name:</b></label> 
+            <input type="text" placeholder="Enter your name" name="name" id="name" required> 
+            </div>
+
+            <div>
+                <label class="b"><b>Year Of Birth:</b></label> 
+                <input type="number" placeholder="YYYY" name="year" id="year" minlength="4" maxlength="4" step="1" required> 
+            </div>
+
+            <div>
+                <label class="c"><b>Month Of Birth:</b></label> 
+                <input type="number" placeholder="MM" name="month" id="month" min="1" max="12" step="1" required> 
+            </div>
+
+            <div>
+                <label class="d"><b>Date Of Birth:</b></label> 
+                <input type="number" placeholder="DD" name="date" id="date" min="1" max="31" step="1"required> 
+            </div>
+
+            <div>
+                <p>Choose your gender:</p>
+                <label for="male">Male</label>
+                <input id ="male" name="gender" type="radio" value="male">
+
+                <label for="female">Female</label>
+                <input id = "female" name="gender" type="radio" value="female">
+            </div>
+
+            <div>
+            <button type="submit">submit</button>
+            </div>
+        </form>
+    </div>
 </body>
 </html>

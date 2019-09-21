@@ -1,0 +1,38 @@
+.container-fluid {
+    background-image: url("/images/ghana.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 18px;
+}
+
+.img {
+    padding-top: 0px;
+    margin-top: 0;
+}
+
+.form {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+label, form p {
+    color:white;
+}
+
+.a {
+    margin-right: 30px;
+}
+
+.b, .d {
+    margin-right: 12px;
+}
+
+.form div {
+    padding-bottom: 20px;
+}
+
+button:hover {
+    background-color: lightseagreen;
+    color: white;
+}

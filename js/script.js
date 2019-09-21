@@ -1,5 +1,4 @@
-function getDay(){
-    var name =  document.getElementById("name").value;
+function getDay(name){
     var month = parseInt(document.getElementById("month").value);
     var date = parseInt(document.getElementById("date").value);
     var year = document.getElementById("year").value;
@@ -32,9 +31,9 @@ function getName(){
     var female = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
     if (getGender() === "male"){
-        document.getElementById("post").innerHTML = `Hey ${name}! if you were born in Ghana your name would be ${male[getDay()]}`;
+        document.getElementById("post").innerHTML = `Hey ${name}! if you were born in Ghana your name would be ${male[getDay(name)]}`;
     }else if(getGender() === "female"){
-        document.getElementById("post").innerHTML = `Hey ${name}! if you were born in Ghana your name would be ${female[getDay()]}`;
+        document.getElementById("post").innerHTML = `Hey ${name}! if you were born in Ghana your name would be ${female[getDay(name)]}`;
     }else{
         alert("Cofirm that you have selected your gender")
     }

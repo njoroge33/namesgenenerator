@@ -5,8 +5,8 @@ function getDay(name){
     var century = year.slice(0, 2);
     var years = year.slice(2, 4);
 
-    if (month === "" || date === "" || year === "" || name === ""){
-        alert("Cofirm that you have entered the correct information!")
+    if (month === "" || month < 1 || month > 12 || date === "" || date < 0 || date > 31 || year === "" || year.length > 4 || name === ""){
+        alert("Confirm that you have entered the correct information!")
     }else{
         var day = Math.floor((((century/4)-2*century-1)+((5*years/4))+((26*(month+1)/10)) + date) % 7);
         return day
@@ -35,6 +35,6 @@ function getName(){
     }else if(getGender() === "female"){
         document.getElementById("post").innerHTML = `Hey ${name}! if you were born in Ghana your name would be ${female[getDay(name)]}`;
     }else{
-        alert("Cofirm that you have selected your gender")
+        alert("Confirm that you have selected your gender")
     }
 }
